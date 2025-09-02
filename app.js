@@ -84,7 +84,7 @@ setInterval(() => {
   // ---- ONP (Overnight Promo) ----
   if (
     (currentDay === 0 && currentHour >= 20) || // Sunday 8pm onwards
-    (currentDay >= 1 && currentDay <= 4 && currentHour >= 18) || // Mon-Thu 8pm onwards
+    (currentDay >= 1 && currentDay <= 4 && currentHour >= 20) || // Mon-Thu 8pm onwards
     (currentDay >= 1 && currentDay <= 5 && currentHour < 6) // Mon-Fri until 5:59am
   ) {
     regularTen.style.display = "none"
@@ -103,4 +103,5 @@ document.addEventListener("click", function () {
     })
   }
 })
+
 
