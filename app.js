@@ -30,17 +30,8 @@ setInterval(() => {
 
   // ---- HOLIDAY LIST ----
   const holidayDates = [
-    "2025-06-06", // Eid’l Adha (estimated)
-    "2025-06-12", // Independence Day
-    "2025-08-21", // Ninoy Aquino Day
-    "2025-08-25", // National Heroes Day
-    "2025-11-01", // All Saints' Day
-    "2025-11-30", // Bonifacio Day
-    "2025-12-08", // Feast of the Immaculate Conception
-    "2025-12-24", // Christmas Eve
-    "2025-12-25", // Christmas Day
-    "2025-12-30", // Rizal Day
-    "2025-12-31", // New Year's Eve
+    "2026-02-17", // Chinese New Year 2026
+    
   ]
 
   function isHolidayNow() {
@@ -103,5 +94,6 @@ document.addEventListener("click", function () {
     })
   }
 })
+
 
 
