@@ -30,6 +30,8 @@ setInterval(() => {
 
   // ---- HOLIDAY LIST ----
   const holidayDates = [
+
+    "2026-03-20", // Eidl Fitr
     "2026-02-17", // Chinese New Year 2026
     
   ]
